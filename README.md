@@ -15,13 +15,13 @@ package main
 
 import (
   "fmt"
-	"github.com/nottgy/gopixel"
+  "github.com/nottgy/gopixel"
 )
 
 func main() {
   token := "<YOUR TOKEN>"
   uuid := "3a1bb62230b04dcb9df18a6dba4909c4"
-	playerResponse, _ := gopixel.QueryPlayerApi(uuid, token)
+  playerResponse, _ := gopixel.QueryPlayerApi(uuid, token)
   fmt.Printf("%v", playerResponse)
 }
 ```
