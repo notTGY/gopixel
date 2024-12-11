@@ -10,7 +10,7 @@ file in pull request. No NITs, typos, tests, etc.
 
 ## Example Usage
 
-```
+```go
 package main
 
 import (
